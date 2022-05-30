@@ -20,12 +20,6 @@ body {
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
-    .aaa {
-        text-align: center;
-    }
-}
-
 .centered-main-page-element {
     display: block;
     width: 500px;
@@ -151,7 +145,7 @@ button .delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul #completed-tasks label {
     text-decoration: line-through; 
     color: #888;
 }
@@ -168,4 +162,12 @@ ul li.editMode input[type=text] {
 
 ul li.editMode label {
     display: none;
+}
+
+/* media quaries */
+
+@media (max-width:768px) {
+    .aaa {
+        text-align: center;
+    }
 }
