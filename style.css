@@ -5,18 +5,18 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.aaa {
+.picture_matrix {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.aaa img {
+.picture_matrix img {
     width: 100%;
 }
 
-.aaa .more_inf {
+.picture_matrix .more_inf {
     font-family: fantasy, cursive;
 }
 
@@ -167,7 +167,7 @@ ul li.editMode label {
 /* media quaries */
 
 @media (max-width:768px) {
-    .aaa {
+    .picture_matrix {
         text-align: center;
     }
 }
